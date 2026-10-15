@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8439426256073262128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637890661088016163, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209253011482968370, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: m_Name
+      value: ParticleDust Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: lengthInSec
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 37.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.43137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.8490566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.8490566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.8490566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696891589343174759, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: -0.18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 001c7c39fb53c7d4f85f97c7828dc0c7, type: 3}

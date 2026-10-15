@@ -12,7 +12,11 @@ public class GameManager : MonoBehaviour
     public float playerHealth = 5;
     public float score = 0;
     public float timer = 0;
+    public GameObject hazard;
     public GameObject coin;
+    public float startingCoinSpeed;
+    public float coinSpawnInterval = 1f;
+    public int coinsSpawned = 0;
 
 
     public List<GameObject> allCoins;
@@ -34,6 +38,7 @@ public class GameManager : MonoBehaviour
         currentPlayer = GameObject.Find("Player");
         playerSprite = GameObject.Find("Player").GetComponent<SpriteRenderer>();
         playerSprite.color = Color.white;
+        coinsSpawned = 0;
     }
     void Update()
     {
@@ -46,12 +51,23 @@ public class GameManager : MonoBehaviour
 
 
         timer += Time.deltaTime;
-        if(timer > 3f) //for a repeating timer, just reset timer when it hits the limit
+        if(timer > coinSpawnInterval) //for a repeating timer, just reset timer when it hits the limit
         {
             Vector2 pos;
             pos.x = Random.Range(-9, 9);
             pos.y = Random.Range(-4, 5);
-            Instantiate(coin, pos, Quaternion.identity);
+            //instatiating a coin every 3 seconds with this timer - EXCEPT every tenths
+            if (coinsSpawned % 10 != 0)
+            {
+                GameObject newCoin = Instantiate(coin, pos, Quaternion.identity);
+                newCoin.GetComponent<Rigidbody2D>().AddForce(Random.insideUnitCircle * startingCoinSpeed);
+            }
+            else
+            {
+                GameObject newHazard = Instantiate(hazard, pos, Quaternion.identity);
+                newHazard.GetComponent<Rigidbody2D>().AddForce(Random.insideUnitCircle * startingCoinSpeed);
+            }
+            coinsSpawned++;
             timer = 0;
         }
     }
